@@ -12,7 +12,7 @@ let listNames: string[] = ['Sadio Mane', 'Youssou Ndour'];
 
 // function with return
 function getName(): string {
-    return 42;
+    return "Me too";
   }
   // no return
   function noReturn(): void {
