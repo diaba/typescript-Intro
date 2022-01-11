@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-exports.Multiplication = void 0;
+exports.Addition = exports.Multiplication = void 0;
 var Multiplication = /** @class */ (function () {
     function Multiplication() {
     }
@@ -10,3 +10,12 @@ var Multiplication = /** @class */ (function () {
     return Multiplication;
 }());
 exports.Multiplication = Multiplication;
+var Addition = /** @class */ (function () {
+    function Addition() {
+    }
+    Addition.prototype.add = function (x, y) {
+        return x + y;
+    };
+    return Addition;
+}());
+exports.Addition = Addition;
